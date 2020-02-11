@@ -1,0 +1,15 @@
+module b{
+    namespace "urn:netcracker:params:a";
+    prefix b; 
+    import a{
+        prefix a;
+    }
+    organization "NEC/Netcracker";
+        uses a:d;
+        grouping c{
+        leaf l{
+            type string;
+        }
+    }
+
+}
